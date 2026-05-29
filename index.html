@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Revisión de búsquedas — SolyLluvia</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <h1>SolyLluvia</h1>
+    <p class="subtitle">Revisión de términos de búsqueda</p>
+    <p class="periodo">25 a 29 de mayo de 2026</p>
+  </div>
+</header>
+
+<main>
+
+  <section id="screen-decisao" class="screen active">
+
+    <div class="intro">
+      <p>Estos son los términos que las personas escribieron en Google y activaron tus anuncios.</p>
+      <p>Para cada uno, decide si quieres <strong class="text-green">mantener</strong> (continúa apareciendo para esa búsqueda) o <strong class="text-red">negativar</strong> (deja de aparecer para esa búsqueda).</p>
+    </div>
+
+    <div id="progresso" class="progresso">
+      <div class="progresso-bar"><div id="progresso-fill" class="progresso-fill"></div></div>
+      <div class="progresso-texto"><span id="progresso-num">0</span> de <span id="progresso-total">0</span> términos revisados</div>
+    </div>
+
+    <div id="campanhas-container"></div>
+
+    <div class="footer-actions">
+      <button id="btn-concluir" class="btn btn-primary" disabled>Concluir revisión</button>
+      <p id="footer-aviso" class="aviso">Revisa todos los términos antes de concluir</p>
+    </div>
+
+  </section>
+
+  <section id="screen-revisao" class="screen">
+
+    <div class="revisao-header">
+      <h2>Revisión final</h2>
+      <p>Confirma tu selección antes de enviar al equipo de Zivug.</p>
+    </div>
+
+    <div class="resumo-grid">
+      <div class="resumo-box resumo-manter">
+        <div class="resumo-num" id="resumo-manter-num">0</div>
+        <div class="resumo-label">A mantener</div>
+      </div>
+      <div class="resumo-box resumo-negativar">
+        <div class="resumo-num" id="resumo-negativar-num">0</div>
+        <div class="resumo-label">A negativar</div>
+      </div>
+    </div>
+
+    <div id="listas-revisao"></div>
+
+    <div class="footer-actions">
+      <button id="btn-voltar" class="btn btn-secondary">Volver y editar</button>
+      <button id="btn-enviar" class="btn btn-whatsapp">Enviar por WhatsApp</button>
+    </div>
+
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
