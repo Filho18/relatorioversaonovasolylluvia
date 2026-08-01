@@ -1,5 +1,4 @@
-# KILL SWITCH - estado: PAUSADO (site em manutencao)
-#
-# Para retomar: .\retomar.ps1
-#
+# >>> PAUSA-ZIVUG - gerido por .claude/scripts/pausa-site.ps1 (nao editar a mao)
+# estado: PAUSADO
 /*  /manutencao.html  503!
+# <<< PAUSA-ZIVUG
