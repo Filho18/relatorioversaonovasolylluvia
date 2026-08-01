@@ -1,7 +1,5 @@
-# KILL SWITCH — estado: ATIVO (site no ar)
+# KILL SWITCH - estado: PAUSADO (site em manutencao)
 #
-# Para pausar:  .\pausar.ps1     (escreve a regra abaixo e faz push)
-# Para retomar: .\retomar.ps1    (volta a comentar a regra e faz push)
+# Para retomar: .\retomar.ps1
 #
-# Regra de pausa (comentada enquanto o site está no ar):
-# /*  /manutencao.html  503!
+/*  /manutencao.html  503!
