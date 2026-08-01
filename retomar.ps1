@@ -31,5 +31,5 @@ git push origin main
 if (-not $?) { Write-Host "Falhou o push - o site continua pausado." -ForegroundColor Red; exit 1 }
 
 Write-Host ""
-Write-Host "Site NO AR. O Netlify redeploya em ~40s." -ForegroundColor Green
+Write-Host "Site NO AR. O Netlify redeploya em segundos." -ForegroundColor Green
 Write-Host "Verificar: curl -I https://relatoriosolylluvia.netlify.app/  ->  espera 200"
